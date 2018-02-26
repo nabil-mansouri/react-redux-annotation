@@ -1,0 +1,25 @@
+{
+  "name": "react-redux-annotation",
+  "version": "1.0.0",
+  "description": "A pluin to simply configure your redux store with react using annotations",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tsc --watch"
+  },
+  "keywords": [
+    "redux",
+    "react",
+    "annotation",
+    "typescript"
+  ],
+  "author": "Nabil Mansouri",
+  "license": "MIT",
+  "devDependencies": {},
+  "peerDependencies": {
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2"
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.1.12"
+  }
+}
