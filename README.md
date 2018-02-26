@@ -1,13 +1,16 @@
 # react-redux-annotation
 
 A plugin to easily configure your store with redux and easy integrate typescript in your redux project.
+It actually work with redux-thunk but will soon integrate other middleware.
 
 # Annotations
-The plugin provide these annotations:
-- @ReduxConnect
-- @BindAction
-- @BindProps
-- @Reducer
+The plugin provide these annotations/functions:
+- @ReduxConnected: connect react component to the redux store
+- @BindAction: bind an action and a reducer
+- @DefaultAction: set a reducer as default if action is not recognized
+- @ConnectAction: connect a props methods to an action
+- @ConnectProp: connect a property to the global state
+- exportReducers: a function to export reducers
 
 # Sample
 Below a sample explaining how to use it.
