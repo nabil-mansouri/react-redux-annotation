@@ -7,6 +7,7 @@
       "es6",
       "dom"
     ],
+    "declaration": true,
     "module": "commonjs",
     "target": "es5",
     "jsx": "react"
