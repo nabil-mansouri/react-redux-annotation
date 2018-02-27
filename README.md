@@ -1,6 +1,6 @@
 # react-redux-annotation
 
-A plugin to easily configure your store with redux and easy integrate typescript in your redux project.
+A plugin to easily configure your react / redux / typescript project using class and annotation.
 It actually work with redux-thunk but will soon integrate other middleware.
 
 # Annotations
