@@ -167,4 +167,4 @@ window.addEventListener('DOMContentLoaded', () => {
 
 - add middleware: saga, promise, observable
 - add react-navigation
-- add demo folder
+- add type checking

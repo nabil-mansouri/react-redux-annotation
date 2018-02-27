@@ -1,7 +1,7 @@
 {
   "name": "react-redux-annotation",
-  "version": "1.0.1",
-  "description": "A pluin to simply configure your redux store with react using annotations",
+  "version": "1.0.2",
+  "description": "A plugin to easily configure your store with redux and easy integrate typescript in your redux project",
   "main": "index.js",
   "scripts": {
     "watch": "tsc --watch"
