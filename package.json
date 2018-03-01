@@ -1,7 +1,7 @@
 {
   "name": "react-redux-annotation",
-  "version": "1.0.7",
-  "description": "A plugin to easily configure your react / redux / typescript project using annotation",
+  "version": "1.0.8",
+  "description": "A plugin to easily configure your react / redux / typescript project using decorators. It works with saga/thunk or without middleware.",
   "main": "index.js",
   "scripts": {
     "watch": "webpack --watch",
