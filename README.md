@@ -387,6 +387,10 @@ export class PureCounter extends React.Component<Props> {
 } 
 ```
 
+# Credits
+Credits to https://rjz.github.io/typescript-react-redux/ for the demo-* folder.
+Demos are based on this example because it is clean and simple to understand.
+
 # TODO
 
 - add middlewares:  promise, observable
