@@ -18,9 +18,7 @@ Because decorators manage for you:
 Install it using
 ```
 npm i --save react-redux-annotation
-```
-
-> The plugin does not install react, readux or any middleware. They are defined as peerDependencies and let you choose deps you really need.
+``` 
 
 See demo-* folder and run :
 ```
