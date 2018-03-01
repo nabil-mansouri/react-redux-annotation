@@ -1,10 +1,11 @@
 {
   "name": "react-redux-annotation",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "A plugin to easily configure your react / redux / typescript project using annotation",
   "main": "index.js",
   "scripts": {
-    "watch": "tsc --watch"
+    "watch": "webpack --watch",
+    "webpack": "webpack"
   },
   "keywords": [
     "redux",
@@ -12,9 +13,21 @@
     "annotation",
     "typescript"
   ],
+  "repository": {
+    "url": "https://github.com/nabil-mansouri/react-redux-annotation"
+  },
   "author": "Nabil Mansouri",
   "license": "MIT",
-  "devDependencies": {},
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.5.0",
+    "copy-webpack-plugin": "^4.4.2",
+    "peer-deps-externals-webpack-plugin": "^1.0.2",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2",
+    "webpack": "^4.0.1",
+    "webpack-cli": "^2.0.9",
+    "webpack-fail-plugin": "^2.0.0"
+  },
   "peerDependencies": {
     "react-redux": "^5.0.7",
     "redux": "^3.7.2"

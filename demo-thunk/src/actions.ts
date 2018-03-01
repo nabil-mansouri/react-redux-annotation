@@ -11,20 +11,19 @@ export class Actions {
   static INCREMENT = "INCREMENT";
   static INCREMENT_SUCCESS = "INCREMENT_SUCCESS";
   static RESET = "RESET";
-  jump(dispatch: redux.Dispatch<state.Counter>, value: number) {
+  static jump(dispatch: redux.Dispatch<state.Counter>, value: number) {
     dispatch({ type: Actions.JUMP, value });
   }
-  add(dispatch: redux.Dispatch<state.Counter>) {
+  static add(dispatch: redux.Dispatch<state.Counter>) {
     dispatch({ type: Actions.ADD });
   }
-  increment(dispatch: redux.Dispatch<state.Counter>) {
+  static increment(dispatch: redux.Dispatch<state.Counter>) {
     dispatch({ type: Actions.INCREMENT });
     setTimeout(() => {
       dispatch({ type: Actions.INCREMENT_SUCCESS });
     }, 3000)
   }
-  reset(dispatch: redux.Dispatch<state.Counter>) {
+  static reset(dispatch: redux.Dispatch<state.Counter>) {
     dispatch({ type: Actions.RESET });
   }
-}
-export const rActions = new Actions();
+} 

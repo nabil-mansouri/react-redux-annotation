@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux'
 import { BindAction, exportReducers, DefaultAction } from "react-redux-annotation";
-import { rActions, Actions, JumpPayload } from "./actions"
+import { Actions, JumpPayload } from "./actions"
 import { Counter } from "./state"
 
 export class Reducers {

@@ -16,7 +16,7 @@
   "dependencies": {
     "react": "16.0.0",
     "react-redux": "5.0.6",
-    "react-redux-annotation": "^1.0.2",
+    "react-redux-annotation": "file://../dist",
     "redux": "3.7.2",
     "redux-observable": "^0.18.0",
     "redux-promise-middleware": "^5.0.0",

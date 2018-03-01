@@ -1,21 +1,21 @@
 import * as React from 'react'
 import * as redux from 'redux'
 import { connect } from 'react-redux'
-import { rActions } from './actions'
-import * as state from './state'
-import { ConnectAction, ConnectProp, ReduxConnected } from "react-redux-annotation";
+import { Actions } from './actions'
+import * as state from './state' 
+import { ConnectAction, ConnectProp, ReduxConnect } from "react-redux-annotation/thunk";
 
 
 class Props {
   myName?= "Nabil";
-  @ConnectAction(rActions.add) add?: () => void
-  @ConnectAction(rActions.increment) increment?: () => void
-  @ConnectAction(rActions.reset) reset?: () => void;
-  @ConnectAction(rActions.jump) jump?: (value: number) => void;
+  @ConnectAction(Actions.add) add?: () => void
+  @ConnectAction(Actions.increment) increment?: () => void
+  @ConnectAction(Actions.reset) reset?: () => void;
+  @ConnectAction(Actions.jump) jump?: (value: number) => void;
   @ConnectProp((sta: state.Counter) => sta) counter?: state.Counter;
 }
 
-@ReduxConnected(Props)
+@ReduxConnect(Props)
 export class PureCounter extends React.Component<Props> {
   _onClickJump = (e: React.SyntheticEvent<HTMLButtonElement>) => {
     e.preventDefault()
