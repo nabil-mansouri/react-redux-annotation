@@ -18,8 +18,7 @@ Because decorators manage for you:
 Install it using
 ```
 npm i --save react-redux-annotation
-```
- 
+``` 
 
 See demo-* folder and run :
 ```
